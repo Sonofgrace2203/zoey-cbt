@@ -31,5 +31,17 @@ button:hover {
 }
 
 .bg-img {
-    background-image: url("images/portrait-young-student-happy-be-back-university_23-2148586577.avif");
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: url('images/portrait-young-student-happy-be-back-university_23-2148586577.avif');
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bg-img {
+    padding: 60px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
