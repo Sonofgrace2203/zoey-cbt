@@ -22,8 +22,34 @@
     align-items: center;
 } */
 
+.txt-shadow {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+select {
+    color: black;
+    transition: all ease-in-out 0.3s;
+}
+
+select:hover {
+    background-color: rgba(0, 174, 239);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+button {
+    transition: all ease-in-out 0.3s;
+}
+
 button:hover {
-    background-color: aqua;
+    background-color: rgba(0, 174, 239);
+    font-weight: bold;
+    font-size: 15px;
+    border: 3px solid white;
 }
 
 .rotate {
@@ -49,3 +75,18 @@ button:hover {
 a {
     text-decoration: none;
 }
+
+.bg-hero {
+    background: linear-gradient(
+        to top left, 
+        rgb(0, 187, 255), 
+        rgb(160, 230, 255)
+    );
+}
+
+bg-br-primary-error {
+  background: linear-gradient(to bottom right, rgb(var(--primary-background-color)), rgb(var(--error-background-color)));
+  color: rgb(var(--primary-foreground-color));
+}
+
+
