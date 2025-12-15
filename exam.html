@@ -9,11 +9,86 @@
     <link rel="stylesheet" href="cbt.css">
     <link rel="stylesheet" href="mdi/css/materialdesignicons.css">
     <link rel="stylesheet" href="dashboard.css">
-    <script src="cbt.js"></script>
+    <script src="cbt.js" defer></script>
 </head>
 
 <body>
+    <div class="mobile cancel-mobile-menu">
+        <section class="mobile-menu bg-gray">
+            <header class="flex flex-spacebetween pdb-7 flex">
+                <div class="flex flex-center fse-1 cl-primary txt-shadow mgt-15">
+                    <i class="mdi mdi-access-point"></i>
+                    <a href="index.html" class="cl-primary">
+                        <h3>ZOEY CBT</h3>
+                    </a>
+                </div>
+                <div class="flex flex-center cancel-mobile cancel-mobile-menu mgr--7 mgt--10">
+                    <div id="cancel" class="cancel fsz-20 cl-white bg-primary pd-2 round wx-03 cancel">
+                        <i class="mdi mdi-cancel"></i>
+                    </div>
+                </div>
+            </header>
 
+            <div class="mgt-5 mgb-15">
+                <h5 class="pdb-4 bd-bottom bdw-5 mgb-3">Exam Information</h5>
+                <a href="dashboard.html" class="cl-white">
+                    <div class="flex pd-4 fsz-12 cl-white bg-primary mgb-3 menu-hover">
+                        <i class="mdi mdi-view-dashboard mgr-2"></i>
+                        <h3>Dashboard</h3>
+                    </div>
+                </a>
+                <a href="index.html" class="cl-white">
+                    <div class="flex pd-4 fsz-12 cl-white mgb-3 bg-primary menu-hover">
+                        <i class="mdi mdi-calendar mgr-2"></i>
+                        <h3>Exam Dates</h3>
+                    </div>
+                </a>
+                <a href="index.html" class="cl-white">
+                    <div class="flex pd-4 fsz-12 cl-white mgb-3 bg-primary menu-hover">
+                        <i class="mdi mdi-registered-trademark mgr-2"></i>
+                        <h3>Exam Registration</h3>
+                    </div>
+                </a>
+                <a href="exam.html" class="cl-white">
+                    <div class="flex pd-4 fsz-12 cl-white mgb-3 bg-primary menu-hover">
+                        <i class="mdi mdi-registered-trademark mgr-2"></i>
+                        <h3>Exam</h3>
+                    </div>
+                </a>
+                <a href="notification.html" class="cl-white">
+                    <div class="flex pd-4 fsz-12 cl-hover-white bg-primary mgb-3 menu-hover menu-focus">
+                        <i class="mdi mdi-alert-box-outline mgr-2"></i>
+                        <h3>Notifications</h3>
+                    </div>
+                </a>
+            </div>
+
+            <div class="mgt-5 mgb-15">
+                <h5 class="pdb-4 bd-bottom bdw-5 mgb-3">My Accounts</h5>
+                <a href="index.html" class="cl-white">
+                    <div class="flex pd-4 fsz-12 cl-white bg-primary mgb-3 menu-hover">
+                        <i class="mdi mdi-information mgr-2"></i>
+
+                        <h3>Personal Information</h3>
+                    </div>
+                </a>
+                <a href="index.html" class="cl-white">
+                    <div class="flex pd-4 fsz-12 cl-white mgb-3 bg-primary menu-hover">
+                        <i class="mdi mdi-eye-settings-outline mgr-2"></i>
+
+                        <h3>Account Settings</h3>
+                    </div>
+                </a>
+                <a href="login.html" class="cl-white">
+                    <div class="flex pd-4 fsz-12 cl-white mgb-3 bg-primary menu-hover">
+                        <i class="mdi mdi-arrow-decision-outline mgr-2"></i>
+
+                        <h3>Sign Out</h3>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </div>
 
     <div class="dashb">
         <section class="section-menu bg-gray">
@@ -89,16 +164,18 @@
 
         <section class="section-dash">
             <div class="flex flex-spacebetween bdw-3 pd-3 mgt-5 mgb-5">
-                <div class="bg-primary pd corner-1">
+                <div class="bg-primary pd corner-1 mobile-menu-button">
                     <i class="mdi mdi-menu fsz-20"></i>
                 </div>
-                <div class="flex flex-center">
-                    <div class="bg-primary wx-03 hx-03 flex flex-center round mgr-2">
-                        <img src="images/portrait-young-student-happy-be-back-university_23-2148586577.avif" alt=""
-                            class="hx-03 wx-03 round">
-                    </div>
-                    <div class="fsz-12">
-                        <p>Hello, <i>John, Philip</i></p>
+                <div class="wf flex flex-end">
+                    <div class="flex flex-center">
+                        <div class="bg-primary wx-03 hx-03 flex flex-center round mgr-2">
+                            <img src="images/portrait-young-student-happy-be-back-university_23-2148586577.avif" alt=""
+                                class="hx-03 wx-03 round">
+                        </div>
+                        <div class="fsz-12">
+                            <p>Hello, <i>John, Philip</i></p>
+                        </div>
                     </div>
                 </div>
             </div>

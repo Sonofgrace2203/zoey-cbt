@@ -84,3 +84,49 @@ section {}
     position: fixed;
     z-index: 10;
 }
+
+.notified-hide {
+    display: none;
+}
+
+.mobile {
+    display: none;
+    background-color: rgba(22, 22, 22, 0.5);
+    width: 100%;
+    height: 100vh;
+    padding: 0.2rem;
+    position: fixed;
+    z-index: 5;
+}
+
+@media (max-width:768px) {
+    .mobile {
+        display: none;
+    }
+}
+
+.mobile-menu-button {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .mobile-menu-button {
+        display: block;
+    }
+}
+
+.cancel-mobile {
+
+    z-index: 4;
+    right: 30%;
+    top: 10px;
+}
+
+.mobile-menu {
+    width: 15rem;
+    height: 100vh;
+    padding: 0.3rem;
+    position: absolute;
+    box-shadow: 2px 1px 1px rgba(22, 22, 22, 0.2);
+}
+
