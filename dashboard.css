@@ -1,5 +1,15 @@
 section {}
 
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(-0%);
+    }
+}
+
 .dashb {
     display: flex;
     flex-wrap: wrap;
@@ -97,6 +107,7 @@ section {}
     padding: 0.2rem;
     position: fixed;
     z-index: 5;
+    animation: slideUp 1s ease-in-out backwards;
 }
 
 @media (max-width:768px) {
@@ -116,7 +127,6 @@ section {}
 }
 
 .cancel-mobile {
-
     z-index: 4;
     right: 30%;
     top: 10px;
@@ -128,5 +138,5 @@ section {}
     padding: 0.3rem;
     position: absolute;
     box-shadow: 2px 1px 1px rgba(22, 22, 22, 0.2);
-}
 
+}
